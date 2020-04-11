@@ -1,0 +1,2 @@
+version=3
+https://github.com/Airblader/i3/releases (?:.*/)?-([0-9.]+)\.tar

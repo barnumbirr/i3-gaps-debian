@@ -1,0 +1,43 @@
+Source: i3-gaps
+Section: x11
+Priority: extra
+Maintainer: Martin Simon <me@martinsimon.me>
+Build-Depends:
+ asciidoc,
+ debhelper (>= 11),
+ dh-autoreconf,
+ docbook-xml,
+ dpkg-dev,
+ libcairo2-dev,
+ libev-dev,
+ libpango1.0-dev,
+ libpcre3-dev,
+ libpod-simple-perl,
+ libstartup-notification0-dev,
+ libx11-dev,
+ libxcb-cursor-dev,
+ libxcb-icccm4-dev,
+ libxcb-keysyms1-dev,
+ libxcb-randr0-dev,
+ libxcb-shape0-dev,
+ libxcb-util0-dev,
+ libxcb-xinerama0-dev,
+ libxcb-xkb-dev,
+ libxcb-xrm-dev,
+ libxkbcommon-dev,
+ libxkbcommon-x11-dev,
+ libyajl-dev,
+ pkg-config,
+ xcb-proto,
+ xmlto
+Standards-Version: 4.3.0
+Homepage: https://github.com/Airblader/i3
+
+Package: i3-gaps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: x-window-manager
+Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
+Description: i3-gaps is a fork of i3wm, a tiling window manager for X11. It is
+ kept up to date with upstream, adding a few additional features such as gaps
+ between windows.

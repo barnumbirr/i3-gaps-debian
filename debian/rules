@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+override_dh_auto_test:
+
+override_dh_auto_configure:
+	dh_auto_configure -- --docdir=/usr/share/doc/i3 --disable-sanitizers
+
+%:
+	dh $@ --parallel --builddirectory=build --with=autoreconf
