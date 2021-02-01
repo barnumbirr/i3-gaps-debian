@@ -28,7 +28,7 @@ Build-Depends:
  meson,
  pkg-config,
  xmlto
-Standards-Version: 4.3.0
+Standards-Version: 4.5.0
 Homepage: https://github.com/Airblader/i3
 
 Package: i3-gaps
