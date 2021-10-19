@@ -2,9 +2,9 @@
 
 set -eu
 
-IMAGE="debian:buster-slim"
+IMAGE="debian:bullseye-slim"
 TARGET="$(dirname "$0" | xargs realpath)"
-VERSION="4.19.1"
+VERSION="4.20"
 
 while getopts "v:i:h" opt
 do

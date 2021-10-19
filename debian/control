@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Martin Simon <me@martinsimon.me>
 Build-Depends:
  asciidoc (>= 8.4.4),
- debhelper (>= 11),
+ debhelper (>= 12),
  docbook-xml,
  libcairo2-dev (>= 1.14.4),
  libev-dev (>= 1:4.04),

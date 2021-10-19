@@ -7,14 +7,14 @@ This repository contains the source to build a Debian package for [i3-gaps](http
 If you have [Docker](https://www.docker.com/) installed locally, just run the following:
 
 ```bash
-user@hostname$ ./build.sh
+$ ./build.sh
 ```
-By default this will build i3-gaps 4.19.1 on Debian Buster.
+By default this will build i3-gaps 4.20 on Debian Bullseye.
 
 If you want to customize the build at runtime, use the following:
 
 ```bash
-user@hostname$ ./build.sh -i debian:unstable-slim -v 4.16.1
+$ ./build.sh -i debian:unstable-slim -v 4.16.1
 ```
 Don't forget to update `debian/changelog` so your package is generated with the correct version.
 
@@ -30,7 +30,7 @@ To publish a new package version to Github, follow these steps:
 ```
 BSD 3-Clause License
 
-Copyright (c) 2020, Martin Simon
+Copyright (c) 2020-2021, Martin Simon
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -58,7 +58,6 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-
 
 ## References
 
