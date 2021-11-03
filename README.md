@@ -64,3 +64,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 * [Airblader/i3](https://github.com/Airblader/i3)
 * [ayosec/polybar-debian](https://github.com/ayosec/polybar-debian)
 * [i3/i3](https://github.com/i3/i3)
+
+## Buy me a coffee?
+
+If you feel like buying me a coffee (or a beer?), donations are welcome:
+
+```
+BTC : bc1qq04jnuqqavpccfptmddqjkg7cuspy3new4sxq9
+DOGE: DRBkryyau5CMxpBzVmrBAjK6dVdMZSBsuS
+ETH : 0x2238A11856428b72E80D70Be8666729497059d95
+LTC : MQwXsBrArLRHQzwQZAjJPNrxGS1uNDDKX6
+```
