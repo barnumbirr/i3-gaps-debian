@@ -9,7 +9,7 @@ If you have [Docker](https://www.docker.com/) installed locally, just run the fo
 ```bash
 $ ./build.sh
 ```
-By default this will build i3-gaps 4.21 on Debian Bullseye.
+By default this will build i3-gaps 4.21.1 on Debian Bullseye.
 
 If you want to customize the build at runtime, use the following:
 
